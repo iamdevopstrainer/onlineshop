@@ -18,7 +18,6 @@ services:
           restart: always
           volumes:
              - /root/onlineshop/phpmysql-app/php/online-shopping-system/database:/docker-entrypoint-initdb.d/
-             - /root/onlineshop/db-data:/var/lib/mysql
           environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: database

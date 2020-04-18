@@ -17,7 +17,7 @@ services:
           command: --default-authentication-plugin=mysql_native_password
           restart: always
           volumes:
-             - /root/onlineshop/phpmysql-app/php/online-shopping-system/database:/docker-entrypoint-initdb.d/
+             - /var/lib/jenkins/workspace/DeployApp/php/online-shopping-system/database:/docker-entrypoint-initdb.d/
           environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: database

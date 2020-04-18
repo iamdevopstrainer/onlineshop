@@ -10,7 +10,7 @@ services:
        depends_on:
          - db
        ports:
-         - 8008:80
+         - 80:80
   db:
           container_name: mysqli
           image: mysql:latest

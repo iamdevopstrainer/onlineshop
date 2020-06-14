@@ -174,7 +174,7 @@ session_start();
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif"><a style="color:red">Edureka EComm App</a>
+								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif"><a style="color:red">ECommerec App</a>
                                     </font>
 									
 								</a>

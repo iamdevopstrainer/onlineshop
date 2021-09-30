@@ -12,6 +12,7 @@ node{
     
     stage('Push Docker Image to HUB')
     {
+        sh 'sudo docker tag onlineshop_web iamdevopstrainer/onlineshop_web'
         sh 'sudo docker push iamdevopstrainer/onlineshop_web'
     }
     

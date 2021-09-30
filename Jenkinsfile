@@ -15,10 +15,11 @@ node{
         sh 'sudo docker tag onlineshop_web iamdevopstrainer/onlineshop_web'
         sh 'sudo docker push iamdevopstrainer/onlineshop_web'
     }
-    
-    stage('Run Docker Container')
+
+    stage('Run Docker')
     {
-        sh 'sudo docker run -itd -P iamdevopstrainer/onlineshop_web'
+        sh 'sudo docker-compose down'
+        sh 'sudo docker-compose up -d'
     }
-    
+
 }
